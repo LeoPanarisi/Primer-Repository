@@ -24,7 +24,7 @@ public class MundoPC {
         orden1.agregarComputadora(computadoraHP);
         orden1.agregarComputadora(computadoraGamer);
         
-        orden1.mostarOrden();
+        orden1.mostrarOrden();
         
     }
     

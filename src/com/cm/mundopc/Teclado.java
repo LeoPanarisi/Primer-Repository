@@ -15,11 +15,8 @@ public class Teclado extends DispositivoDeEntrada{
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("Teclado{idTeclado=").append(idTeclado);
-        sb.append('}');
-        return sb.toString();
+        return "Teclado{" + "idTeclado=" + idTeclado + '}';
     }
 
-  
+   
 }

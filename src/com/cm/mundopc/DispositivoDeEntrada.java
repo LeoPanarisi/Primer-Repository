@@ -31,17 +31,8 @@ public class DispositivoDeEntrada {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append("DispositivoDeEntrada{tipoEntrada=").append(tipoEntrada);
-        sb.append(", marca=").append(marca);
-        sb.append('}');
-        return sb.toString();
+        return "DispositivoDeEntrada{" + "tipoEntrada=" + tipoEntrada + ", marca=" + marca + '}';
     }
 
-   
-    
-    
-    
-    
-    
+
 }
